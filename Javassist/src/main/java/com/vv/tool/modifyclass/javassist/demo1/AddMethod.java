@@ -31,7 +31,7 @@ public class AddMethod {
 
             //修改旧方法，调用新增的方法
             cMethod.setBody(oldMethodBody);
-            cClass.writeFile(Constant.classPath);
+            cClass.writeFile(classPath);
 
             System.out.println("=======修改方法完=========");
 
